@@ -68,7 +68,7 @@ fn gen_bindings() {
 }
 
 fn main() {
-    gen_bindings();
+    //gen_bindings();
     // build
     let mut cfg = cc::Build::new();
     cfg.files(
